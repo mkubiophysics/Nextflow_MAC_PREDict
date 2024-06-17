@@ -19,7 +19,8 @@ And then run the following commands while in the repository:
 
 ```
 $ cd install
-$ bash install.bash
+$ bash install_blast.sh
+$ bash install_seqtk.sh
 ```
 This script installs the following pipeline component software:
 
