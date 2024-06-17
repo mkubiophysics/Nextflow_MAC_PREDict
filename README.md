@@ -48,4 +48,4 @@ This pipeline will create database
 ```
 nextflow run MAC_PREDict.nf
 ```
-This pipeline will predict MAC from mNGS reads using `GSOligos` []
+This pipeline will predict MAC from mNGS reads using --queryFile `GSOligos.txt` --numThreads `8` --evalueThreshold `1e-10` --blastOptions '-max_target_seqs 10'
