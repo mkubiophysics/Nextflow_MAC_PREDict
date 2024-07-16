@@ -54,4 +54,4 @@ nextflow run MAC_PREDict.nf -w /path/to/the/directory/where/above/process/was/ru
 
 For Example nextflow run create_db.nf -w /DATA/Manisha_aswal/MAC_predictor/
 ```
-This pipeline will predict MAC from mNGS reads using --queryFile `GSOligos.txt` --numThreads `8` --evalueThreshold `1e-10` --blastOptions '-max_target_seqs 10'
+This pipeline will predict MAC from mNGS reads using --queryFile `GSOligos.txt`
