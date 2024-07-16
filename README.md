@@ -61,4 +61,4 @@ This pipeline will predict MAC from mNGS reads
 # Developer info
 
 Manisha Aswal (maswal@biophysics.du.ac.in)
-# Running the pipeline
+
