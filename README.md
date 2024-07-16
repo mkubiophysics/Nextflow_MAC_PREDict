@@ -44,6 +44,8 @@ Then, to run the pipeline from the terminal call:
 
 ```
 nextflow run create_db.nf -w /path/to/the/directory/with/sample/reads
+
+For Example nextflow run create_db.nf -w /DATA/Manisha_aswal/MAC_predictor/
 ```
 This pipeline will create database
 
