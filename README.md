@@ -38,7 +38,7 @@ curl -s https://get.nextflow.io | bash
 ```
 or visit [https://www.nextflow.io/docs/latest/install.html]
 
-To run the pipeline on a metagenomic samples, the raw reads such as `*R{1,2}.fastq.gz` and `*R{1,2}.fastq.tar.gz` should be `unzipped`. Define the `Directory` of `reads`. 
+To run the pipeline on a metagenomic samples, the raw reads such as `*R{1,2}.fastq.gz` and `*R{1,2}.fastq.tar.gz` should be `unzipped`. Define the `Directory` of `reads`. First, try to run with sample files in `Directory: Examples` 
 
 Then, to run the pipeline from the terminal call:
 
