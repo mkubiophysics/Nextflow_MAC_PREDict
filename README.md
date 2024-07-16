@@ -14,6 +14,7 @@ First clone the rpository into a local directory:
 
 ```
 git clone https://github.com/mkubiophysics/Nextflow_MAC_PREDict.git
+$ cd Nextflow_MAC_PREDict
 ```
 And then run the following commands while in the repository:
 
@@ -42,7 +43,7 @@ To run the pipeline on a metagenomic samples, the raw reads such as `*R{1,2}.fas
 Then, to run the pipeline from the terminal call:
 
 ```
-nextflow run create_db.nf
+nextflow run create_db.nf -w /path/to/the/directory/with/sample/reads
 ```
 This pipeline will create database
 
