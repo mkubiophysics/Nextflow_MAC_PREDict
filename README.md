@@ -83,7 +83,7 @@ This pipeline will predict MAC from mNGS reads
 For detailed information about designing of GSOligos could be found at [https://github.com/mkubiophysics/GSOligos-Database]
 
 # Pipeline Algorithm
-![fliow_chart](https://github.com/user-attachments/assets/85837db2-5a8e-42b1-b538-ada9adf719ae)
+![flow_chart](https://github.com/user-attachments/assets/f681b6fe-cd4d-4a92-89a1-3b0dfff27bf1)
 
 # Developer info
 
