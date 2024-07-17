@@ -10,7 +10,7 @@ MAC_PREDict pipeline was developed by Manish Kumar's lab and is written in Nextf
 
 To install the Nextflow MAC PREDict pipeline:
 
-First clone the rpository into a local directory:
+First clone the repository into a local directory:
 
 ```
 git clone https://github.com/mkubiophysics/Nextflow_MAC_PREDict.git
@@ -28,6 +28,12 @@ This script installs the following pipeline component software:
 . seqtk
 
 . BLAST
+
+# Prepare Input files
+
+. Pair-end reads with `R1.fastq` and `R2.fastq` extensions in the `$projectDir`
+
+. GSOligos.txt in the `$projectDir`
 
 # Running the pipeline
 
@@ -56,6 +62,25 @@ For Example nextflow run create_db.nf -w /DATA/Manisha_aswal/MAC_predictor/
 ```
 This pipeline will predict MAC from mNGS reads 
 
+# Output Files
+
+. Blast_result = Complete result of Blastn
+
+. GE_hits = MAC specific hits
+
+. SPA_hits = *Mycobacterium avium subsp. avium* specific hits
+
+. SPP_hits = *Mycobacterium avium subsp. paratuberculosis* specific hits
+
+. SPH_hits = *Mycobacterium avium subsp. hominissius* specific hits
+
+. SPC_hits = *Mycobacterium chimera* specific hits
+
+. SPI_hits = *Mycobacterium intracellulare* specific hits
+
+# Preparation of GSOligos 
+
+For detailed information about designing of GSOligos could be found at 
 # Pipeline Algorithm
 
 # Developer info
