@@ -44,7 +44,7 @@ curl -s https://get.nextflow.io | bash
 ```
 or visit [https://www.nextflow.io/docs/latest/install.html]
 
-To run the pipeline on a metagenomic samples, the raw reads such as `*R{1,2}.fastq.gz` and `*R{1,2}.fastq.tar.gz` should be `unzipped`. Define the `Directory` of `reads`. First, try to run with sample files in `Directory: Examples` visit [https://doi.org/10.6084/m9.figshare.26312170.v1]
+To run the pipeline on a metagenomic samples, the raw reads such as `*R{1,2}.fastq.gz` and `*R{1,2}.fastq.tar.gz` should be `unzipped`. Define the `Directory` of `reads` i.e., `$projectDir`. First, try to run with sample files in `Directory: Examples` visit [https://doi.org/10.6084/m9.figshare.26312170.v1]
 
 Then, to run the pipeline from the terminal call:
 
@@ -63,6 +63,8 @@ For Example nextflow run create_db.nf -w /DATA/Manisha_aswal/MAC_predictor/
 This pipeline will predict MAC from mNGS reads 
 
 # Output Files
+
+A Directory `results` will be formed in `$projectDir`
 
 . Blast_result = Complete result of Blastn
 
