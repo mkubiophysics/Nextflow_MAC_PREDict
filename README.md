@@ -78,9 +78,10 @@ This pipeline will predict MAC from mNGS reads
 
 . SPI_hits = *Mycobacterium intracellulare* specific hits
 
-# Preparation of GSOligos 
+# Designing of GSOligos 
 
-For detailed information about designing of GSOligos could be found at 
+For detailed information about designing of GSOligos could be found at [https://github.com/mkubiophysics/GSOligos-Database]
+
 # Pipeline Algorithm
 
 # Developer info
