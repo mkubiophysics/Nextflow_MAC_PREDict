@@ -64,7 +64,7 @@ This pipeline will predict MAC from mNGS reads
 
 # Output Files
 
-A Directory `results` will be formed in `$projectDir`
+A Directory `results` will be formed in `$projectDir` that will contain main output files such as:
 
 . Blast_result = Complete result of Blastn
 
